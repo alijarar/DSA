@@ -6,11 +6,11 @@ function twoSum(nums, target) {
       return [numIndices[complement], i];
     }
     numIndices[nums[i]] = i;
-    console.log(numIndices);
+    // console.log(numIndices);
   }
 
   return null;
 }
 
-let result = twoSum([2, 7, 11, 15], 13);
+let result = twoSum([2, 7, 11, 15], 9);
 console.log(result);
